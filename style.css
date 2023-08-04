@@ -1,0 +1,59 @@
+/* FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bungee+Spice&display=swap');
+
+
+/* RESET CSS */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+
+/* MAIN */
+
+.logo {
+    margin: -460px 0 350px 200px;
+    width: 500px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font: 400 60px 'Bungee Spice', cursive ;
+    margin: -725px 0 350px 570px;
+}
+
+.patricia {
+   color: rgb(226, 145, 13);
+    font: 700 40px 'Poppins Bold', sans-serif;
+    text-shadow: -1px 13px 48px -1px rgba(0,0,0,0.65);
+}
+
+.faixa {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: -400px
+}
